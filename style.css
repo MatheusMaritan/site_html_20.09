@@ -1,0 +1,44 @@
+body {
+    background-color: #989A9B;
+}
+
+@font-face {
+    font-family: Common Pixel;
+    src: url('http://fonts.cdnfonts.com/css/common-pixel');
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-family: common Pixel;
+    color: #ffffff;
+    background-color: #202020;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+table{
+    width: 100%;
+    align-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    background-color: black;
+}
+
+td{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.aba{
+    font-size: 25px;
+    margin-left: 100px;
+}
