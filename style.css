@@ -1,5 +1,5 @@
 body {
-    background-color: #989A9B;
+    background-color: #808080;
 }
 
 @font-face {
@@ -24,29 +24,34 @@ body {
 
 table{
     width: 100%;
-    display: flexbox;
-    justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    padding-top: 50px;
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    /* align-items: center;  */
     background-color: black;
 }
 
-td{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
-a{
+
+/* td a{
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
     color: white;
     text-decoration: none;
-    
-}
+    text-align: center;
 
-.aba{
-    font-size: 25px;
-    margin-left: 100px;
+} */
+
+div a{
+    padding: 0%;
+    margin: 0%;
+    direction: rtl;
+    justify-items: center;
+
+    background-color: black;
+    height: 50px;
+    
 }
 
 
@@ -96,4 +101,20 @@ div p{
     padding-bottom: 30px;
 }
 
+footer{
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #202020;
+    color: #ffffff;
+    font-family: 'Times';
+    font-size: 20px;    
+
+}
+
+footer p{
+    padding-right: 30px;
+}
 
