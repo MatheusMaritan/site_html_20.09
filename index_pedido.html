@@ -24,22 +24,27 @@
         <ul>
         <form action="form.txt">
             <label for="nome">Nome: </label>
-            <input type="text" id="nome">
+            <input class="transformacao" type="text" id="nome">
             <label for="sobrenome">Sobrenome: </label>
-            <input type="text" id="sobrenome">
+            <input class="transformacao" type="text" id="sobrenome">
             <label for="email">E-mail: </label>
-            <input type="text" id="email">
+            <input class="transformacao" type="text" id="email">
             <label for="telefone">Telefone: </label>
-            <input type="text" id="telefone">
+            <input class="transformacao" type="text" id="telefone">
             <label for="mensagem">Mensagem: </label>
             <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-            <label for="checkbox">Eu li e aceito os Termos de Uso.</label>
-            <input type="checkbox" id="checkbox">
-            <label for="radio">Não sou um robô.</label>
-            <input type="radio" id="radio">
+            <label for="checkbox">Eu li e aceito os Termos de Uso.
+                <input type="checkbox" id="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label for="radio">Não sou um robô.
+                <input type="radio" id="radio">
+                <span class="checkmark"></span>
+            </label>
         </form>
     </ul>
 
+        <button>Enviar!</button>
 
 
     </main>

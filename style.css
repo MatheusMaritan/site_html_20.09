@@ -132,13 +132,35 @@ form label{
     font-weight: bold;
 }
 
-form input{
+.transformacao{
     width: 25%;
-    height: 20px;
+    height: 30px;
     border: black;
+    font-size: 20px;
 }
 
 form textarea{
     width: 25%;
     height: 200px;
+}
+
+.checkmark{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+}
+
+form span{
+    height: 50px;
+    width: 50px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 30px;
 }
