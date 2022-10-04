@@ -144,23 +144,23 @@ form textarea{
     height: 200px;
 }
 
-.checkmark{
+/* form span{
     height: 50px;
-    width: 50px;
-    position: absolute;
+    width: 500px;
+} */
+
+.checkmark{
+    height: 15px;
+    width: 20px;
+    
     top: 0;
     left: 0;
-    background-color: #eee;
-}
-
-form span{
-    height: 50px;
-    width: 50px;
+    background-color: #ffffff;
 }
 
 .button {
     display: inline-block;
-    border-radius: 60px;
+    border-radius: 50px;
     background-color: #f4511e;
     border: none;
     color: #FFFFFF;
@@ -178,7 +178,7 @@ form span{
 .button span {
     cursor: pointer;
     display: inline-block;
-    position: relative;
+    position:relative;
     transition: 0.5s;
 }
 
