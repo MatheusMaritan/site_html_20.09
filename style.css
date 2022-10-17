@@ -1,3 +1,12 @@
+:root{
+    --dark: black;
+    --titulo-font: courier new;
+    --titulo-size: 25px;
+    --titulo-peso: bold;
+    --texto-corpo: arial;
+    --texto-size: 16px
+}
+
 body {
     background-color: #808080;
 }
@@ -66,7 +75,7 @@ div a{
     transform: translateY(0);
 }
 
-.pic{
+.picture{
     width: 100%;
     height: 100%;
 }
@@ -198,4 +207,52 @@ form textarea{
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+
+.pic{
+    height: 200px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.titulo-float{
+    font-family: var(--titulo-font);
+    font-weight: var(--titulo-peso);
+    font-size: var(--titulo-size);
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+main p{
+    font-family: var(--texto-corpo);
+    font-size: var(--texto-size);
+}
+
+#titulo-mapa{
+    font-family: var(--titulo-font);
+    font-size: var(--titulo-size);
+    color: var(--dark);
+    font-weight: var(--titulo-peso);
+}
+
+.mapa{
+    clear: left;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mapa iframe{
+    width: 600px;
+    height: 450px;
+    border: 1px solid var(--dark);
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
