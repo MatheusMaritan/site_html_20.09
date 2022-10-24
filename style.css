@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: #808080;
+    /* background-color: #808080; */
+    background: linear-gradient(gray, #C0C0C0, white);
 }
 
 @font-face {
@@ -50,6 +51,14 @@ body {
     text-decoration: none;
     text-align: center;
 
+}
+
+.navegacao li a::before{
+    content: "🔗";
+}
+
+.navegacao li a::after{
+    content: "🔗";
 }
 
 div a{
@@ -106,6 +115,10 @@ div p{
     font-size: 30px;
     margin-top: 30px;
     padding-bottom: 30px;
+}
+
+.image-container p::first-letter{
+    color: #202020;
 }
 
 footer{
@@ -210,7 +223,7 @@ form textarea{
 }
 
 
-.pic{
+.pic-float{
     height: 200px;
     width: 250px;
     margin-left: 10px;
@@ -238,6 +251,7 @@ main p{
     color: var(--dark);
     font-weight: var(--titulo-peso);
 }
+
 
 .mapa{
     clear: left;
